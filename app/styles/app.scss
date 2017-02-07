@@ -5,6 +5,8 @@
 // @import 'font-awesome';
 @import 'box-sizing';
 
-.body {
-  color: red;
+$c-primary: #0047ff;
+
+body {
+  color: $c-primary;
 }
