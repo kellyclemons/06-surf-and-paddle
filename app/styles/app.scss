@@ -6,6 +6,9 @@
 @import 'box-sizing';
 
 $c-primary: #0047ff;
+$c-white: #fff;
+$c-red: #ff1900;
+$c-green: #00a42e;
 
 body {
   margin: 0;
@@ -22,6 +25,9 @@ img {
   max-width: 100%;
 }
 
+// TOP SECTION;
+
+
 // TOP NAVBAR;
 .top {
   background: url('/images/Mountains.jpg') no-repeat center center fixed;
@@ -34,46 +40,50 @@ img {
   // justify-content: space-around;
 
   > * {
-    margin: 1rem;
-    background: green;
-    color: white;
-
+    margin: 0.5rem;
+    // background: $c-green;
   }
 }
 
-.navbar-title {
-  display: inline;
-}
-
-.navbar-right {
-  display: flex;
+.navbar-left {
+  display: inline-flex;
 }
 
 .navbar-logo {
+  margin: 0.5rem;
   width: 3rem;
   height: 3rem;
 }
 
+.navbar-title {
+  display: inline;
+
+}
+
+.navbar-right {
+  display: inline-flex;
+}
+
 .navbar-right-item {
   margin: 0.5rem;
+  // display: inline-block;
 }
 
 .search-icon {
   width: 1rem;
   height: 1rem;
-  display: inline;
+  margin: 0.5rem;
+  display: inline-block;
 }
 
 
 
-// .main-heading {
-//   position: fixed;
-//   top: 50%;
-//   left: 50%;
-//   width: 7rem;
-//   transform: translate(-50%, -50%);
-//   text-align: center;
-// }
+.main-heading {
+  // background: blue;
+  align-content: space-around;
+  text-align: center;
+
+}
 
 .author-icon {
   width: 3rem;
@@ -82,7 +92,7 @@ img {
 
 //  4-BOXES;
 
-.four-boxes {
-  height: 10rem;
+.four-boxes-grid {
   width: 10rem;
+  height: 10rem;
 }
