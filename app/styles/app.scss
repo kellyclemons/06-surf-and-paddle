@@ -174,8 +174,6 @@ img {
   padding-right: 0.3rem;
   color: $c-greylink;
   font-size: 2rem;
-
-
 }
 
 // woah, that's radical;
@@ -188,7 +186,37 @@ img {
 
 //  *4-BOXES*;
 
+.popular-posts {
+  text-transform: uppercase;
+}
+
+.bottom {
+
+}
+
 .four-boxes-grid {
-  width: 10rem;
+  background: rgba(255, 0, 197, 3) ;
+
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.box {
   height: 10rem;
+  width: 10rem;
+  display: fill;
+}
+
+.tiy {
+  text-transform: uppercase;
+}
+
+.copyright {
+  font-size: 10;
+}
+
+.nav-items {
+  border: 1px black solid;
 }
