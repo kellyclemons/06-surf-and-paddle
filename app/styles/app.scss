@@ -168,14 +168,22 @@ img {
 
 // grey box next to woah;
 .radical-box {
+  display: inline;
   width: 2rem;
   height: 2rem;
+  padding-right: 0.3rem;
   color: $c-greylink;
+  font-size: 2rem;
+
+
 }
 
 // woah, that's radical;
 .big-para {
+  margin-left: 0.5rem;
+  color: $c-primary;
   font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 //  *4-BOXES*;
