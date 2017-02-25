@@ -1,0 +1,105 @@
+// *** MIDDLE SECTION ***
+
+// * LEFT-SIDE
+
+// middle section container
+.middle {
+  display: flex;
+}
+
+// all middle text
+//
+h2 {
+  margin: 0;
+}
+
+.headline-text {
+  font-size: 0.8rem;
+  padding-left: 9rem;
+}
+
+// a fantastic engaging heading goes here
+.headline-big {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  // background: red;
+}
+
+// author icon
+.author-icon {
+  // background: yellow;
+  width: 3rem;
+  border-radius: 50%;
+
+  vertical-align: middle;
+}
+
+// on monday oct 7;
+.date {
+  color: $c-greylink;
+  text-decoration: underline;
+}
+
+// Anne Marie;
+.author-text {
+  display: inline;
+  // background: green;
+  margin: 0 0 0 0.3rem;
+
+}
+
+.text-paragraphs {
+  margin: 0;
+  line-height: 1.5;
+}
+
+// all sections of text in middle section;
+.para-section {
+  font-size: 0.8rem;
+
+}
+
+// grey box next to woah;
+.radical-box {
+  display: inline;
+  width: 2rem;
+  height: 2rem;
+  padding-right: 0.3rem;
+  color: $c-greylink;
+  font-size: 2rem;
+}
+
+// woah, that's radical;
+.big-para {
+  margin-left: 0.5rem;
+  color: $c-app-lightblue;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+
+// * RIGHT SIDE - SIDEBAR
+
+.sidebar {
+  background: $c-red;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 10rem;
+  // padding: 2rem;
+}
+
+.sidebar-author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sibebar-author__avatar {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.sidebar-photo__pic {
+}

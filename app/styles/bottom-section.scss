@@ -1,0 +1,76 @@
+//  *** BOTTOM SECTION ***
+
+
+.bottom {
+  border-top: 1px solid $c-greylink;
+}
+
+.popular-posts {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: none;
+  // margin: 0 auto;
+
+  // display: flex;
+  // justify-content: space-between;
+
+  &__item {
+    position: relative;
+    flex-basis: calc(100% / 4);
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  &__text {
+    display: flex;
+    position: absolute;
+    bottom: -1rem;
+    flex-wrap: none;
+    padding: 0.5rem;
+    color: $c-white;
+  }
+
+  &__image {
+    display: flex;
+  }
+};
+
+// <-- FOOTER -->
+//
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: $c-app-darkblue;
+  font-size: 0.8rem;
+
+  > * {
+    margin: 0.5rem;
+  }
+}
+
+.tiy-logo {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  // transform: translateX(-5rem);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  padding-left: 10rem;
+}
