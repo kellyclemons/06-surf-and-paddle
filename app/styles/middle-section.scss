@@ -5,6 +5,7 @@
 // middle section container
 .middle {
   display: flex;
+  background: $c-white;
 }
 
 // all middle text
@@ -14,8 +15,8 @@ h2 {
 }
 
 .headline-text {
-  font-size: 0.8rem;
   padding-left: 9rem;
+  font-size: 0.8rem;
 }
 
 // a fantastic engaging heading goes here
@@ -78,15 +79,45 @@ h2 {
   text-transform: uppercase;
 }
 
+// * BUTTONS
+
+.buttons {
+  display: flex;
+  background: $c-greylink;
+  margin: 0;
+  padding: 0;
+}
+
+.fa {
+  margin: 0;
+  padding: 0;
+  background: $c-darkgrey;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+.buttons-text {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0;
+}
+
+.text {
+  padding: 1rem;
+}
+
+
+
 
 // * RIGHT SIDE - SIDEBAR
 
 .sidebar {
-  background: $c-red;
   display: flex;
   flex-direction: column;
-  padding-left: 3rem;
   padding-right: 10rem;
+  padding-left: 3rem;
+  background: $c-red;
   // padding: 2rem;
 }
 
@@ -99,7 +130,4 @@ h2 {
 .sibebar-author__avatar {
   width: 3rem;
   border-radius: 50%;
-}
-
-.sidebar-photo__pic {
 }
