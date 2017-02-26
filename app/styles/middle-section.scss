@@ -15,7 +15,7 @@ h2 {
 }
 
 .headline-text {
-  padding-left: 9rem;
+
   font-size: 0.8rem;
 }
 
@@ -45,7 +45,6 @@ h2 {
 // Anne Marie;
 .author-text {
   display: inline;
-  // background: green;
   margin: 0 0 0 0.3rem;
 
 }
@@ -57,6 +56,7 @@ h2 {
 
 // all sections of text in middle section;
 .para-section {
+  padding-right: 3rem;
   font-size: 0.8rem;
 
 }
@@ -83,48 +83,84 @@ h2 {
 
 .buttons {
   display: flex;
-  background: $c-greylink;
-  margin: 0;
+  // background: $c-greylink;
   padding: 0;
-}
-
-.fa {
-  margin: 0;
-  padding: 0;
-  background: $c-darkgrey;
-  font-size: 2rem;
-  padding: 1rem;
+  padding-right: 3rem;
+  // margin: 1rem 0 1rem 0;
+  //
 }
 
 .buttons-text {
   display: flex;
-  justify-content: center;
-  margin: 1rem;
+  min-width: 9rem;
+
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  // margin: 0 1.5rem 0.8rem 0;
   padding: 0;
+  border-style: none;
+  background: $c-button-light;
+}
+
+.fa {
+  margin: 0;
+  padding: 0.5rem;
+  background: $c-darkgrey;
+  color: $c-white;
 }
 
 .text {
-  padding: 1rem;
+  display: inline-table;
+  align-self: center;
+  margin: 0;
+  padding: 0 1rem;
+  color: $c-white;
 }
 
+.fa-share-square-o {
+  background: $c-app-darkblue;
+}
 
-
+.share {
+  background: $c-app-lightblue;
+}
 
 // * RIGHT SIDE - SIDEBAR
 
 .sidebar {
   display: flex;
   flex-direction: column;
-  padding-right: 10rem;
-  padding-left: 3rem;
-  background: $c-red;
-  // padding: 2rem;
+  padding-top: 3rem;
+  // background: $c-app-lightblue;
 }
 
 .sidebar-author {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  &__media {
+    display: flex;
+    margin: 0 2rem 1rem 2rem;
+    font-size: 0.6rem;
+
+    > * {
+      margin: 0.5rem;
+      // background: $c-violet;
+    }
+  }
+
+  &__name {
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: $c-app-lightblue;
+  }
+
+  &__media-item {
+    color: $c-greylink;
+    margin-top: 0;
+  }
 }
 
 .sibebar-author__avatar {
