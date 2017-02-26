@@ -16,10 +16,6 @@
 .grid {
   display: flex;
   flex-wrap: none;
-  // margin: 0 auto;
-
-  // display: flex;
-  // justify-content: space-between;
 
   &__item {
     position: relative;
@@ -39,7 +35,15 @@
 
   &__image {
     display: flex;
+    width: 100%;
+    height: 100%;
+
+    filter: opacity(40%);
+
+    &:hover {
+      filter: opacity(100%);
   }
+ }
 };
 
 // <-- FOOTER -->
@@ -67,6 +71,8 @@
 
 .footer-item {
   padding: 0.5rem;
+  color: $c-white;
+  text-decoration: none;
 }
 
 .footer-left {
@@ -79,5 +85,12 @@
 .footer-right {
   display: flex;
   align-items: center;
-  padding-left: 10rem;
+
+
+  font-size: 0.6rem;
+  text-align: center;
+
+  > * + * {
+    border-left: 1px solid $c-lightgrey;
+  }
 }
