@@ -1,10 +1,12 @@
 // *** DOUBLE CONTAINER ***
 
+.section {
+  padding: 1rem;
+}
+
 .container {
   max-width: 65rem;
   margin: auto;
-  padding-top: 10.5rem;
-  padding-bottom: 10.5rem;
 }
 
 main {

@@ -19,7 +19,6 @@ h2 {
 
 .headline-text {
   flex-basis: 65%;
-  margin-left: 10rem;
   font-size: 0.8rem;
 }
 
@@ -102,6 +101,10 @@ h2 {
   padding: 0;
   border-style: none;
   background: $c-button-light;
+
+  &--active {
+    background: #106db3;
+  }
 }
 
 .fa {
