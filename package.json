@@ -9,7 +9,7 @@
     "build": "ember build",
     "lint": "sass-lint",
     "esfix": "eslint src --fix && eslint tests --fix",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist my-app.surge.sh",
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist http://fuzzy-cracker.surge.sh/",
     "setup:vue": "yarn add vue vue-router && yarn add --dev rollup-plugin-vue eslint-plugin-html"
   },
   "author": "",
@@ -20,6 +20,7 @@
     "rollup-plugin-node-builtins": "^2.0.0",
     "rollup-plugin-node-globals": "^1.1.0",
     "rollup-plugin-replace": "^1.1.1",
+    "surge": "^0.19.0",
     "whatwg-fetch": "^2.0.2",
     "yoga-sass": "^1.0.1"
   },
