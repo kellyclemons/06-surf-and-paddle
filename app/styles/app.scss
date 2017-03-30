@@ -4,9 +4,9 @@
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
 @import 'box-sizing';
-
-$c-primary: #0047ff;
-
-body {
-  color: $c-primary;
-}
+@import 'css-resets';
+@import 'double-container';
+@import 'top-section';
+@import 'middle-section';
+@import 'sidebar';
+@import 'bottom-section';
